@@ -74,3 +74,6 @@ ChoreWheel is an app designed to organize chores amongst roommates and ensure th
 * [list second screen here]
    * [list screen navigation here]
    * ...
+
+## Wireframes
+![](https://i.imgur.com/lpHlx3f.png)
