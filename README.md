@@ -77,3 +77,41 @@ ChoreWheel is an app designed to organize chores amongst roommates and ensure th
 
 ## Wireframes
 ![](https://i.imgur.com/lpHlx3f.png)
+
+## Schema
+
+**Models**
+Post
+| Property | Type | Description |
+| -------- | -------- | -------- |
+|objectid | String     | unique id for the user post (default field)|
+|image| File | pictures of chores that users upload |
+|houseid|String|unique id created when a house is created|
+|chores| String | names of the chores|
+|caption| String | captions for pictures|
+
+
+**Networking**
+List of network requests by screen
+* Login
+    * Login
+    * (Read/Get)Check if account is associated to existing house
+* Create House Page
+    * (Create/Post) Create house 
+        * (Post) add roommates
+    * (Update/Put) Join existing house
+* Home Page
+    * (Create/Post) Assign chores 
+* House Page
+    * (Create/Post) Add roommate
+    * (Delete) Remove existing roommate
+* Leaderboard
+    * (Read/Get) see who has most points
+* Photoboard
+    * (Create/post) Create new post object
+    * (Create/post) Add caption to post
+* Profile Page
+    * (Update/put) Update user profile image
+    * (Update/put) Update user profile information
+* Calendar
+    * (Read) chores due by which roommate
