@@ -1,0 +1,6 @@
+framework module Pods_ChoreWheel_ChoreWheelUITests {
+  umbrella header "Pods-ChoreWheel-ChoreWheelUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26738E16E1DA3AC9458AA43B /* Pods_ChoreWheel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508FD1925E4AD26390D859F0 /* Pods_ChoreWheel.framework */; };
+		3573C7FF8168647FE592C01C /* Pods_ChoreWheelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEB1A561AAD77B488416A42 /* Pods_ChoreWheelTests.framework */; };
+		9AD28E41E529D428294E200A /* Pods_ChoreWheel_ChoreWheelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CFCAF302D94A7B4EA6F92C /* Pods_ChoreWheel_ChoreWheelUITests.framework */; };
+		DEAC50D92650443600FC3EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC50D82650443600FC3EE6 /* AppDelegate.swift */; };
+		DEAC50DB2650443600FC3EE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC50DA2650443600FC3EE6 /* SceneDelegate.swift */; };
+		DEAC50DD2650443600FC3EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC50DC2650443600FC3EE6 /* ViewController.swift */; };
+		DEAC50E02650443600FC3EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAC50DE2650443600FC3EE6 /* Main.storyboard */; };
+		DEAC50E22650443800FC3EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAC50E12650443800FC3EE6 /* Assets.xcassets */; };
+		DEAC50E52650443800FC3EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAC50E32650443800FC3EE6 /* LaunchScreen.storyboard */; };
+		DEAC50F02650443800FC3EE6 /* ChoreWheelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC50EF2650443800FC3EE6 /* ChoreWheelTests.swift */; };
+		DEAC50FB2650443800FC3EE6 /* ChoreWheelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC50FA2650443800FC3EE6 /* ChoreWheelUITests.swift */; };
+		DEAC5109265048C700FC3EE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC5108265048C700FC3EE6 /* LoginViewController.swift */; };
+		DEAC510B265048E500FC3EE6 /* JoinHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC510A265048E500FC3EE6 /* JoinHouseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEAC50EC2650443800FC3EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAC50CD2650443600FC3EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAC50D42650443600FC3EE6;
+			remoteInfo = ChoreWheel;
+		};
+		DEAC50F72650443800FC3EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEAC50CD2650443600FC3EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEAC50D42650443600FC3EE6;
+			remoteInfo = ChoreWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C1D9CA1848258ADD1DD6DD /* Pods-ChoreWheelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreWheelTests.release.xcconfig"; path = "Target Support Files/Pods-ChoreWheelTests/Pods-ChoreWheelTests.release.xcconfig"; sourceTree = "<group>"; };
+		11FFFE9F26E1C5E92F8023CA /* Pods-ChoreWheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreWheel.debug.xcconfig"; path = "Target Support Files/Pods-ChoreWheel/Pods-ChoreWheel.debug.xcconfig"; sourceTree = "<group>"; };
+		4AEB1A561AAD77B488416A42 /* Pods_ChoreWheelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoreWheelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		508FD1925E4AD26390D859F0 /* Pods_ChoreWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoreWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634A08527D5E6CDA25B9D6E1 /* Pods-ChoreWheel-ChoreWheelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreWheel-ChoreWheelUITests.release.xcconfig"; path = "Target Support Files/Pods-ChoreWheel-ChoreWheelUITests/Pods-ChoreWheel-ChoreWheelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87CFCAF302D94A7B4EA6F92C /* Pods_ChoreWheel_ChoreWheelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoreWheel_ChoreWheelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9848027AFA3A05F26A4A0072 /* Pods-ChoreWheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreWheel.release.xcconfig"; path = "Target Support Files/Pods-ChoreWheel/Pods-ChoreWheel.release.xcconfig"; sourceTree = "<group>"; };
+		9936368CFC3EA34DB089D4F3 /* Pods-ChoreWheelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreWheelTests.debug.xcconfig"; path = "Target Support Files/Pods-ChoreWheelTests/Pods-ChoreWheelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEAC50D52650443600FC3EE6 /* ChoreWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAC50D82650443600FC3EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEAC50DA2650443600FC3EE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEAC50DC2650443600FC3EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEAC50DF2650443600FC3EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEAC50E12650443800FC3EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEAC50E42650443800FC3EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEAC50E62650443800FC3EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAC50EB2650443800FC3EE6 /* ChoreWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAC50EF2650443800FC3EE6 /* ChoreWheelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreWheelTests.swift; sourceTree = "<group>"; };
+		DEAC50F12650443800FC3EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAC50F62650443800FC3EE6 /* ChoreWheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreWheelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAC50FA2650443800FC3EE6 /* ChoreWheelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreWheelUITests.swift; sourceTree = "<group>"; };
+		DEAC50FC2650443800FC3EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEAC5108265048C700FC3EE6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DEAC510A265048E500FC3EE6 /* JoinHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinHouseViewController.swift; sourceTree = "<group>"; };
+		EDD94BF199E605A9C7F3376B /* Pods-ChoreWheel-ChoreWheelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreWheel-ChoreWheelUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChoreWheel-ChoreWheelUITests/Pods-ChoreWheel-ChoreWheelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEAC50D22650443600FC3EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26738E16E1DA3AC9458AA43B /* Pods_ChoreWheel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAC50E82650443800FC3EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3573C7FF8168647FE592C01C /* Pods_ChoreWheelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAC50F32650443800FC3EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD28E41E529D428294E200A /* Pods_ChoreWheel_ChoreWheelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73D2E2F195A6B12139D3EE8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				508FD1925E4AD26390D859F0 /* Pods_ChoreWheel.framework */,
+				87CFCAF302D94A7B4EA6F92C /* Pods_ChoreWheel_ChoreWheelUITests.framework */,
+				4AEB1A561AAD77B488416A42 /* Pods_ChoreWheelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEAC50CC2650443600FC3EE6 = {
+			isa = PBXGroup;
+			children = (
+				DEAC50D72650443600FC3EE6 /* ChoreWheel */,
+				DEAC50EE2650443800FC3EE6 /* ChoreWheelTests */,
+				DEAC50F92650443800FC3EE6 /* ChoreWheelUITests */,
+				DEAC50D62650443600FC3EE6 /* Products */,
+				F7E0DBA67D5B369ABA318F18 /* Pods */,
+				73D2E2F195A6B12139D3EE8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEAC50D62650443600FC3EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEAC50D52650443600FC3EE6 /* ChoreWheel.app */,
+				DEAC50EB2650443800FC3EE6 /* ChoreWheelTests.xctest */,
+				DEAC50F62650443800FC3EE6 /* ChoreWheelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEAC50D72650443600FC3EE6 /* ChoreWheel */ = {
+			isa = PBXGroup;
+			children = (
+				DEAC50D82650443600FC3EE6 /* AppDelegate.swift */,
+				DEAC50DA2650443600FC3EE6 /* SceneDelegate.swift */,
+				DEAC50DC2650443600FC3EE6 /* ViewController.swift */,
+				DEAC50DE2650443600FC3EE6 /* Main.storyboard */,
+				DEAC50E12650443800FC3EE6 /* Assets.xcassets */,
+				DEAC50E32650443800FC3EE6 /* LaunchScreen.storyboard */,
+				DEAC50E62650443800FC3EE6 /* Info.plist */,
+				DEAC5108265048C700FC3EE6 /* LoginViewController.swift */,
+				DEAC510A265048E500FC3EE6 /* JoinHouseViewController.swift */,
+			);
+			path = ChoreWheel;
+			sourceTree = "<group>";
+		};
+		DEAC50EE2650443800FC3EE6 /* ChoreWheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEAC50EF2650443800FC3EE6 /* ChoreWheelTests.swift */,
+				DEAC50F12650443800FC3EE6 /* Info.plist */,
+			);
+			path = ChoreWheelTests;
+			sourceTree = "<group>";
+		};
+		DEAC50F92650443800FC3EE6 /* ChoreWheelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEAC50FA2650443800FC3EE6 /* ChoreWheelUITests.swift */,
+				DEAC50FC2650443800FC3EE6 /* Info.plist */,
+			);
+			path = ChoreWheelUITests;
+			sourceTree = "<group>";
+		};
+		F7E0DBA67D5B369ABA318F18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11FFFE9F26E1C5E92F8023CA /* Pods-ChoreWheel.debug.xcconfig */,
+				9848027AFA3A05F26A4A0072 /* Pods-ChoreWheel.release.xcconfig */,
+				EDD94BF199E605A9C7F3376B /* Pods-ChoreWheel-ChoreWheelUITests.debug.xcconfig */,
+				634A08527D5E6CDA25B9D6E1 /* Pods-ChoreWheel-ChoreWheelUITests.release.xcconfig */,
+				9936368CFC3EA34DB089D4F3 /* Pods-ChoreWheelTests.debug.xcconfig */,
+				02C1D9CA1848258ADD1DD6DD /* Pods-ChoreWheelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEAC50D42650443600FC3EE6 /* ChoreWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAC50FF2650443800FC3EE6 /* Build configuration list for PBXNativeTarget "ChoreWheel" */;
+			buildPhases = (
+				1AB0726E8158E2D1C60C34C2 /* [CP] Check Pods Manifest.lock */,
+				DEAC50D12650443600FC3EE6 /* Sources */,
+				DEAC50D22650443600FC3EE6 /* Frameworks */,
+				DEAC50D32650443600FC3EE6 /* Resources */,
+				0E27158CCAAB4692609F77A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChoreWheel;
+			productName = ChoreWheel;
+			productReference = DEAC50D52650443600FC3EE6 /* ChoreWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEAC50EA2650443800FC3EE6 /* ChoreWheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAC51022650443800FC3EE6 /* Build configuration list for PBXNativeTarget "ChoreWheelTests" */;
+			buildPhases = (
+				E258F6227ACCBDE8D0458A8B /* [CP] Check Pods Manifest.lock */,
+				DEAC50E72650443800FC3EE6 /* Sources */,
+				DEAC50E82650443800FC3EE6 /* Frameworks */,
+				DEAC50E92650443800FC3EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAC50ED2650443800FC3EE6 /* PBXTargetDependency */,
+			);
+			name = ChoreWheelTests;
+			productName = ChoreWheelTests;
+			productReference = DEAC50EB2650443800FC3EE6 /* ChoreWheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEAC50F52650443800FC3EE6 /* ChoreWheelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAC51052650443800FC3EE6 /* Build configuration list for PBXNativeTarget "ChoreWheelUITests" */;
+			buildPhases = (
+				0545BC815EEF037F9CDF2472 /* [CP] Check Pods Manifest.lock */,
+				DEAC50F22650443800FC3EE6 /* Sources */,
+				DEAC50F32650443800FC3EE6 /* Frameworks */,
+				DEAC50F42650443800FC3EE6 /* Resources */,
+				4A220959CC8C6BB1E3C9DB2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEAC50F82650443800FC3EE6 /* PBXTargetDependency */,
+			);
+			name = ChoreWheelUITests;
+			productName = ChoreWheelUITests;
+			productReference = DEAC50F62650443800FC3EE6 /* ChoreWheelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEAC50CD2650443600FC3EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DEAC50D42650443600FC3EE6 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					DEAC50EA2650443800FC3EE6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DEAC50D42650443600FC3EE6;
+					};
+					DEAC50F52650443800FC3EE6 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DEAC50D42650443600FC3EE6;
+					};
+				};
+			};
+			buildConfigurationList = DEAC50D02650443600FC3EE6 /* Build configuration list for PBXProject "ChoreWheel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEAC50CC2650443600FC3EE6;
+			productRefGroup = DEAC50D62650443600FC3EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEAC50D42650443600FC3EE6 /* ChoreWheel */,
+				DEAC50EA2650443800FC3EE6 /* ChoreWheelTests */,
+				DEAC50F52650443800FC3EE6 /* ChoreWheelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEAC50D32650443600FC3EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAC50E52650443800FC3EE6 /* LaunchScreen.storyboard in Resources */,
+				DEAC50E22650443800FC3EE6 /* Assets.xcassets in Resources */,
+				DEAC50E02650443600FC3EE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAC50E92650443800FC3EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAC50F42650443800FC3EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0545BC815EEF037F9CDF2472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoreWheel-ChoreWheelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E27158CCAAB4692609F77A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChoreWheel/Pods-ChoreWheel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChoreWheel/Pods-ChoreWheel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChoreWheel/Pods-ChoreWheel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AB0726E8158E2D1C60C34C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoreWheel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A220959CC8C6BB1E3C9DB2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChoreWheel-ChoreWheelUITests/Pods-ChoreWheel-ChoreWheelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChoreWheel-ChoreWheelUITests/Pods-ChoreWheel-ChoreWheelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChoreWheel-ChoreWheelUITests/Pods-ChoreWheel-ChoreWheelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E258F6227ACCBDE8D0458A8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChoreWheelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEAC50D12650443600FC3EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAC5109265048C700FC3EE6 /* LoginViewController.swift in Sources */,
+				DEAC50DD2650443600FC3EE6 /* ViewController.swift in Sources */,
+				DEAC50D92650443600FC3EE6 /* AppDelegate.swift in Sources */,
+				DEAC510B265048E500FC3EE6 /* JoinHouseViewController.swift in Sources */,
+				DEAC50DB2650443600FC3EE6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAC50E72650443800FC3EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAC50F02650443800FC3EE6 /* ChoreWheelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAC50F22650443800FC3EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAC50FB2650443800FC3EE6 /* ChoreWheelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEAC50ED2650443800FC3EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAC50D42650443600FC3EE6 /* ChoreWheel */;
+			targetProxy = DEAC50EC2650443800FC3EE6 /* PBXContainerItemProxy */;
+		};
+		DEAC50F82650443800FC3EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEAC50D42650443600FC3EE6 /* ChoreWheel */;
+			targetProxy = DEAC50F72650443800FC3EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEAC50DE2650443600FC3EE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAC50DF2650443600FC3EE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEAC50E32650443800FC3EE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAC50E42650443800FC3EE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEAC50FD2650443800FC3EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEAC50FE2650443800FC3EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEAC51002650443800FC3EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11FFFE9F26E1C5E92F8023CA /* Pods-ChoreWheel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoreWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kelly.ChoreWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEAC51012650443800FC3EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9848027AFA3A05F26A4A0072 /* Pods-ChoreWheel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoreWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kelly.ChoreWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEAC51032650443800FC3EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9936368CFC3EA34DB089D4F3 /* Pods-ChoreWheelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoreWheelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kelly.ChoreWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoreWheel.app/ChoreWheel";
+			};
+			name = Debug;
+		};
+		DEAC51042650443800FC3EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C1D9CA1848258ADD1DD6DD /* Pods-ChoreWheelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoreWheelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kelly.ChoreWheelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChoreWheel.app/ChoreWheel";
+			};
+			name = Release;
+		};
+		DEAC51062650443800FC3EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD94BF199E605A9C7F3376B /* Pods-ChoreWheel-ChoreWheelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoreWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kelly.ChoreWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChoreWheel;
+			};
+			name = Debug;
+		};
+		DEAC51072650443800FC3EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634A08527D5E6CDA25B9D6E1 /* Pods-ChoreWheel-ChoreWheelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChoreWheelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kelly.ChoreWheelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChoreWheel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEAC50D02650443600FC3EE6 /* Build configuration list for PBXProject "ChoreWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAC50FD2650443800FC3EE6 /* Debug */,
+				DEAC50FE2650443800FC3EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAC50FF2650443800FC3EE6 /* Build configuration list for PBXNativeTarget "ChoreWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAC51002650443800FC3EE6 /* Debug */,
+				DEAC51012650443800FC3EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAC51022650443800FC3EE6 /* Build configuration list for PBXNativeTarget "ChoreWheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAC51032650443800FC3EE6 /* Debug */,
+				DEAC51042650443800FC3EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAC51052650443800FC3EE6 /* Build configuration list for PBXNativeTarget "ChoreWheelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAC51062650443800FC3EE6 /* Debug */,
+				DEAC51072650443800FC3EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEAC50CD2650443600FC3EE6 /* Project object */;
+}
