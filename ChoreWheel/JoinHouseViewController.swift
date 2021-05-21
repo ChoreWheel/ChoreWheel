@@ -9,13 +9,22 @@ import UIKit
 
 class JoinHouseViewController: UIViewController {
 
+    @IBOutlet weak var houseidTextField: UITextField!
+    
+    @IBAction func onCreate(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onJoin(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
     /*
     // MARK: - Navigation
 
