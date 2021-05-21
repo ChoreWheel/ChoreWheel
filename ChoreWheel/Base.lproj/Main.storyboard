@@ -125,6 +125,136 @@
             </objects>
             <point key="canvasLocation" x="437.68115942028987" y="146.65178571428569"/>
         </scene>
+        <!--Home Page Controller-->
+        <scene sceneID="hCy-yP-WU1">
+            <objects>
+                <viewController title="Home Page Controller" modalPresentationStyle="fullScreen" id="Sc8-TI-oN2" customClass="HousePageViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DAa-2b-hdy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Roommates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zy-Xj-ayy">
+                                <rect key="frame" x="58" y="71" width="140" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9zy-Xj-ayy" secondAttribute="height" multiplier="140:33" id="h1w-3e-ipR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Chores" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQ0-Sv-scC">
+                                <rect key="frame" x="58" y="374" width="84" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tQ0-Sv-scC" secondAttribute="height" multiplier="28:11" id="we3-R7-pR7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bnb-SP-llA">
+                                <rect key="frame" x="58" y="106" width="299" height="267"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bnb-SP-llA" secondAttribute="height" multiplier="299:267" id="Mep-bq-fZK"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="roommateData" rowHeight="66" id="aO7-dN-Zda">
+                                        <rect key="frame" x="0.0" y="24.5" width="299" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aO7-dN-Zda" id="LUD-Bn-n6M">
+                                            <rect key="frame" x="0.0" y="0.0" width="299" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Roommate 1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T9P-Mk-Ar3">
+                                                    <rect key="frame" x="16" y="11" width="267" height="34"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PME-ba-wxH">
+                                <rect key="frame" x="58" y="421" width="299" height="267"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PME-ba-wxH" secondAttribute="height" multiplier="299:267" id="zav-U9-LKX"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="choreData" rowHeight="66" id="5og-AN-ujS">
+                                        <rect key="frame" x="0.0" y="24.5" width="299" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5og-AN-ujS" id="kRE-Yf-FhI">
+                                            <rect key="frame" x="0.0" y="0.0" width="299" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Chore 1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aaN-VH-1eY">
+                                                    <rect key="frame" x="16" y="11" width="267" height="34"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZb-sV-4QT">
+                                <rect key="frame" x="134" y="721" width="150" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="lZb-sV-4QT" secondAttribute="height" multiplier="75:19" id="7uv-wI-mEr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Send Reminders"/>
+                                <connections>
+                                    <action selector="SendReminder:" destination="Sc8-TI-oN2" eventType="touchUpInside" id="8bD-Up-aDa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPg-Y2-O4j">
+                                <rect key="frame" x="133" y="788" width="153" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BPg-Y2-O4j" secondAttribute="height" multiplier="153:38" id="4hK-Yk-Omy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Invite Roommate"/>
+                                <connections>
+                                    <action selector="InviteRoommate:" destination="Sc8-TI-oN2" eventType="touchUpInside" id="4qH-dJ-esB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Hdk-Rf-e0I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tQ0-Sv-scC" firstAttribute="top" secondItem="bnb-SP-llA" secondAttribute="bottom" constant="5" id="gQu-NT-tJo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ChoreCells" destination="PME-ba-wxH" id="Bcg-g6-z5g"/>
+                        <outlet property="RoommateCells" destination="bnb-SP-llA" id="AoJ-LK-Bzr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aVa-e6-Ctf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1993" y="139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nmg-qc-QHJ">
+            <objects>
+                <navigationController id="gag-cU-JR1" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="09o-Us-YyD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Sc8-TI-oN2" kind="presentation" id="ZAD-MF-7gT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bGc-wy-tdF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1196" y="139"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

@@ -10,6 +10,7 @@
 		26738E16E1DA3AC9458AA43B /* Pods_ChoreWheel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508FD1925E4AD26390D859F0 /* Pods_ChoreWheel.framework */; };
 		3573C7FF8168647FE592C01C /* Pods_ChoreWheelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEB1A561AAD77B488416A42 /* Pods_ChoreWheelTests.framework */; };
 		9AD28E41E529D428294E200A /* Pods_ChoreWheel_ChoreWheelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CFCAF302D94A7B4EA6F92C /* Pods_ChoreWheel_ChoreWheelUITests.framework */; };
+		AAB342CF26583BC10068031E /* HousePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB342CE26583BC10068031E /* HousePageViewController.swift */; };
 		DEAC50D92650443600FC3EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC50D82650443600FC3EE6 /* AppDelegate.swift */; };
 		DEAC50DB2650443600FC3EE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC50DA2650443600FC3EE6 /* SceneDelegate.swift */; };
 		DEAC50DD2650443600FC3EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC50DC2650443600FC3EE6 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		87CFCAF302D94A7B4EA6F92C /* Pods_ChoreWheel_ChoreWheelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChoreWheel_ChoreWheelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9848027AFA3A05F26A4A0072 /* Pods-ChoreWheel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreWheel.release.xcconfig"; path = "Target Support Files/Pods-ChoreWheel/Pods-ChoreWheel.release.xcconfig"; sourceTree = "<group>"; };
 		9936368CFC3EA34DB089D4F3 /* Pods-ChoreWheelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreWheelTests.debug.xcconfig"; path = "Target Support Files/Pods-ChoreWheelTests/Pods-ChoreWheelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAB342CE26583BC10068031E /* HousePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousePageViewController.swift; sourceTree = "<group>"; };
 		DEAC50D52650443600FC3EE6 /* ChoreWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoreWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAC50D82650443600FC3EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEAC50DA2650443600FC3EE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				DEAC50DA2650443600FC3EE6 /* SceneDelegate.swift */,
 				DEAC50DC2650443600FC3EE6 /* ViewController.swift */,
 				DEAC50DE2650443600FC3EE6 /* Main.storyboard */,
+				AAB342CE26583BC10068031E /* HousePageViewController.swift */,
 				DEAC50E12650443800FC3EE6 /* Assets.xcassets */,
 				DEAC50E32650443800FC3EE6 /* LaunchScreen.storyboard */,
 				DEAC50E62650443800FC3EE6 /* Info.plist */,
@@ -416,6 +419,7 @@
 				DEAC50DD2650443600FC3EE6 /* ViewController.swift in Sources */,
 				DEAC50D92650443600FC3EE6 /* AppDelegate.swift in Sources */,
 				DEAC510B265048E500FC3EE6 /* JoinHouseViewController.swift in Sources */,
+				AAB342CF26583BC10068031E /* HousePageViewController.swift in Sources */,
 				DEAC50DB2650443600FC3EE6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
