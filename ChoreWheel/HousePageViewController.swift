@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HousePageViewController: UIViewController {
+class HousePageViewController: UIViewController, UITableViewDelegate {
     
     
     @IBOutlet weak var roommateCells: UITableView!
@@ -57,7 +57,7 @@ extension HousePageViewController: UITableViewDataSource {
     }
 }
 
-
+/*
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView == roommateCells {
@@ -68,4 +68,4 @@ extension ViewController: UITableViewDelegate {
             choreCells.deselectRow(at: indexPath, animated: true)
         }
     }
-}
+}*/
