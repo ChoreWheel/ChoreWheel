@@ -10,7 +10,8 @@ import UIKit
 class JoinHouseViewController: UIViewController {
 
     @IBOutlet weak var houseidTextField: UITextField!
-    
+    //enter code to join the house
+    //each house has unique house id
     @IBAction func onCreate(_ sender: Any) {
         
     }

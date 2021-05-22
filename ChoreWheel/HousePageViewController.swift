@@ -7,13 +7,13 @@
 
 import UIKit
 
-class HousePageViewController: UIViewController {
+class HousePageViewController: UIViewController, UITableViewDelegate {
     
     
     @IBOutlet weak var roommateCells: UITableView!
         
     @IBOutlet weak var choreCells: UITableView!
-    
+    //insert data from parse server here
     let roommateData =  ["Name1", "Name2", "Name3"]
     let choreData = ["Chore1", "Chore2", "Chore3"]
     
@@ -28,7 +28,7 @@ class HousePageViewController: UIViewController {
     }
     
 
-    
+    //when clicked, how should this work
     @IBAction func SendReminder(_ sender: Any) {
     }
     
@@ -57,7 +57,7 @@ extension HousePageViewController: UITableViewDataSource {
     }
 }
 
-
+/*
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView == roommateCells {
@@ -68,4 +68,4 @@ extension ViewController: UITableViewDelegate {
             choreCells.deselectRow(at: indexPath, animated: true)
         }
     }
-}
+}*/
