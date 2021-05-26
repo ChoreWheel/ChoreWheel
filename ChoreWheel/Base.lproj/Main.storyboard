@@ -231,10 +231,10 @@
             </objects>
             <point key="canvasLocation" x="1993" y="139"/>
         </scene>
-        <!--Item-->
+        <!--Wheel Page View Controller-->
         <scene sceneID="ooS-vM-BBN">
             <objects>
-                <viewController id="hxD-mx-R0A" customClass="WheelPageViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Wheel Page View Controller" id="hxD-mx-R0A" customClass="WheelPageViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cnN-sW-q2q">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -257,10 +257,10 @@
             </objects>
             <point key="canvasLocation" x="-1757" y="1807"/>
         </scene>
-        <!--Item-->
+        <!--Leaderboard View Controller-->
         <scene sceneID="Os1-MB-kVX">
             <objects>
-                <viewController id="OlZ-cq-L7z" customClass="LeaderboardViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Leaderboard View Controller" id="OlZ-cq-L7z" customClass="LeaderboardViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qeg-oQ-hAp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -328,10 +328,10 @@
             </objects>
             <point key="canvasLocation" x="-959" y="1807"/>
         </scene>
-        <!--Item-->
+        <!--Photoboard View Controller-->
         <scene sceneID="wG4-dk-w6e">
             <objects>
-                <viewController id="ObL-QZ-Ozw" customClass="PhotoboardViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Photoboard View Controller" id="ObL-QZ-Ozw" customClass="PhotoboardViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0n9-Iy-2oK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -344,56 +344,6 @@
             </objects>
             <point key="canvasLocation" x="-138" y="1807"/>
         </scene>
-        <!--Item 2-->
-        <scene sceneID="aiU-dL-f4n">
-            <objects>
-                <viewController id="A4e-La-KWt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Rbx-xS-2PE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DELETE!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTW-cf-avB">
-                                <rect key="frame" x="120" y="223" width="174" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="i8o-cd-Kn3"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="uKh-Ty-OS1"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5ll-Dc-RbJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1980" y="863"/>
-        </scene>
-        <!--Item 1-->
-        <scene sceneID="Lep-82-kf7">
-            <objects>
-                <viewController id="ypr-Eh-fFi" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="KtB-BU-GcE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DELETE!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1B0-1j-TTg">
-                                <rect key="frame" x="98" y="222" width="174" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="D3E-np-yBs"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="ceg-1s-63S"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iVU-W4-ujT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="773.91304347826087" y="815.625"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="wML-xk-xjl">
             <objects>
@@ -404,8 +354,6 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="ypr-Eh-fFi" kind="relationship" relationship="viewControllers" id="1bh-U0-gMX"/>
-                        <segue destination="A4e-La-KWt" kind="relationship" relationship="viewControllers" id="rAb-XB-nEq"/>
                         <segue destination="hxD-mx-R0A" kind="relationship" relationship="viewControllers" id="YTa-97-DwB"/>
                         <segue destination="OlZ-cq-L7z" kind="relationship" relationship="viewControllers" id="XmK-74-S2k"/>
                         <segue destination="ObL-QZ-Ozw" kind="relationship" relationship="viewControllers" id="2o2-SX-GF8"/>
@@ -416,10 +364,10 @@
             </objects>
             <point key="canvasLocation" x="-491" y="863"/>
         </scene>
-        <!--Item-->
+        <!--Profile Page View Controller-->
         <scene sceneID="E8M-aZ-txy">
             <objects>
-                <viewController id="hDg-7g-SgX" customClass="ProfilePageViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Profile Page View Controller" id="hDg-7g-SgX" customClass="ProfilePageViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uXH-wc-HkR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
