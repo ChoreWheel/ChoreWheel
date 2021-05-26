@@ -21,6 +21,10 @@
 		DEAC50FB2650443800FC3EE6 /* ChoreWheelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC50FA2650443800FC3EE6 /* ChoreWheelUITests.swift */; };
 		DEAC5109265048C700FC3EE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC5108265048C700FC3EE6 /* LoginViewController.swift */; };
 		DEAC510B265048E500FC3EE6 /* JoinHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAC510A265048E500FC3EE6 /* JoinHouseViewController.swift */; };
+		F9BF117F2659FD1F000781F7 /* WheelPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF117E2659FD1F000781F7 /* WheelPageViewController.swift */; };
+		F9BF11842659FD57000781F7 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF11832659FD57000781F7 /* LeaderboardViewController.swift */; };
+		F9BF11892659FD9A000781F7 /* PhotoboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF11882659FD9A000781F7 /* PhotoboardViewController.swift */; };
+		F9BF118E2659FDAB000781F7 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BF118D2659FDAB000781F7 /* ProfilePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		DEAC5108265048C700FC3EE6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DEAC510A265048E500FC3EE6 /* JoinHouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinHouseViewController.swift; sourceTree = "<group>"; };
 		EDD94BF199E605A9C7F3376B /* Pods-ChoreWheel-ChoreWheelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChoreWheel-ChoreWheelUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChoreWheel-ChoreWheelUITests/Pods-ChoreWheel-ChoreWheelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9BF117E2659FD1F000781F7 /* WheelPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelPageViewController.swift; sourceTree = "<group>"; };
+		F9BF11832659FD57000781F7 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		F9BF11882659FD9A000781F7 /* PhotoboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoboardViewController.swift; sourceTree = "<group>"; };
+		F9BF118D2659FDAB000781F7 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +150,10 @@
 				DEAC50E62650443800FC3EE6 /* Info.plist */,
 				DEAC5108265048C700FC3EE6 /* LoginViewController.swift */,
 				DEAC510A265048E500FC3EE6 /* JoinHouseViewController.swift */,
+				F9BF117E2659FD1F000781F7 /* WheelPageViewController.swift */,
+				F9BF11832659FD57000781F7 /* LeaderboardViewController.swift */,
+				F9BF11882659FD9A000781F7 /* PhotoboardViewController.swift */,
+				F9BF118D2659FDAB000781F7 /* ProfilePageViewController.swift */,
 			);
 			path = ChoreWheel;
 			sourceTree = "<group>";
@@ -415,11 +427,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BF11892659FD9A000781F7 /* PhotoboardViewController.swift in Sources */,
 				DEAC5109265048C700FC3EE6 /* LoginViewController.swift in Sources */,
 				DEAC50DD2650443600FC3EE6 /* ViewController.swift in Sources */,
+				F9BF117F2659FD1F000781F7 /* WheelPageViewController.swift in Sources */,
 				DEAC50D92650443600FC3EE6 /* AppDelegate.swift in Sources */,
+				F9BF118E2659FDAB000781F7 /* ProfilePageViewController.swift in Sources */,
 				DEAC510B265048E500FC3EE6 /* JoinHouseViewController.swift in Sources */,
 				AAB342CF26583BC10068031E /* HousePageViewController.swift in Sources */,
+				F9BF11842659FD57000781F7 /* LeaderboardViewController.swift in Sources */,
 				DEAC50DB2650443600FC3EE6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
