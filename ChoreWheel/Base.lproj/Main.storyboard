@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -132,6 +132,90 @@
             </objects>
             <point key="canvasLocation" x="180" y="139"/>
         </scene>
+        <!--Wheel Page View Controller-->
+        <scene sceneID="eTy-cc-w2p">
+            <objects>
+                <viewController title="Wheel Page View Controller" id="hIz-q3-gKJ" customClass="WheelPageViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7mj-jc-hBd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9OW-fc-E0l"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="bth-Up-Qvp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FiS-Of-8ZQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1361" y="1955"/>
+        </scene>
+        <!--Leaderboard View Controller-->
+        <scene sceneID="bUJ-bU-k7z">
+            <objects>
+                <viewController title="Leaderboard View Controller" id="rgg-dG-4xg" customClass="LeaderboardViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zIh-RN-qwc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ApY-bz-8cV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="m0l-yb-oFk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cva-i7-25L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-541" y="1969"/>
+        </scene>
+        <!--Photoboard View Controller-->
+        <scene sceneID="3O5-O3-vSH">
+            <objects>
+                <viewController title="Photoboard View Controller" id="GD5-K7-Cu9" customClass="PhotoboardViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jtu-9w-lf6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Z2E-6v-IB4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ETp-eH-yUH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b77-kv-IKA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="254" y="1972"/>
+        </scene>
+        <!--Profile Page View Controller-->
+        <scene sceneID="7Hx-gF-cn7">
+            <objects>
+                <viewController title="Profile Page View Controller" id="Q8a-qK-B3C" customClass="ProfilePageViewController" customModule="ChoreWheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sRb-Sp-5pL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="IHJ-2f-EoH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="WZ9-Og-Raa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OCn-pK-WJm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1013" y="1961"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="m5d-6q-cF4">
+            <objects>
+                <tabBarController id="hp8-cN-MIo" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Fo-SP-Epu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hIz-q3-gKJ" kind="relationship" relationship="viewControllers" id="QyI-Fk-EAR"/>
+                        <segue destination="rgg-dG-4xg" kind="relationship" relationship="viewControllers" id="Oxb-zJ-WWq"/>
+                        <segue destination="GD5-K7-Cu9" kind="relationship" relationship="viewControllers" id="BZk-Dy-9YM"/>
+                        <segue destination="Q8a-qK-B3C" kind="relationship" relationship="viewControllers" id="AQf-1A-vVo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ehy-fC-A3o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-355" y="1105"/>
+        </scene>
         <!--Home Page Controller-->
         <scene sceneID="hCy-yP-WU1">
             <objects>
@@ -160,7 +244,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="roommateData" rowHeight="66" id="aO7-dN-Zda">
-                                        <rect key="frame" x="0.0" y="24.5" width="299" height="66"/>
+                                        <rect key="frame" x="0.0" y="28" width="299" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aO7-dN-Zda" id="LUD-Bn-n6M">
                                             <rect key="frame" x="0.0" y="0.0" width="299" height="66"/>
@@ -183,7 +267,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="choreData" rowHeight="66" id="5og-AN-ujS">
-                                        <rect key="frame" x="0.0" y="24.5" width="299" height="66"/>
+                                        <rect key="frame" x="0.0" y="28" width="299" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5og-AN-ujS" id="kRE-Yf-FhI">
                                             <rect key="frame" x="0.0" y="0.0" width="299" height="66"/>
