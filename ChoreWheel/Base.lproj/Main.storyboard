@@ -342,7 +342,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W1J-HB-CAp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-138" y="1807"/>
+            <point key="canvasLocation" x="-139.13043478260872" y="1806.6964285714284"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="wML-xk-xjl">
@@ -409,6 +409,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Xy2-el-o1D"/>
+                    <connections>
+                        <outlet property="onLogout" destination="U3f-TV-Qmd" id="ex8-O5-Qw5"/>
+                        <outlet property="profileImage" destination="m7m-zm-WpT" id="rYa-kk-tia"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mWv-XK-RwY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

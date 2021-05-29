@@ -8,7 +8,13 @@
 import UIKit
 
 class ProfilePageViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var profileImage: UIImageView!
+    
+    
+    @IBOutlet weak var onLogout: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
