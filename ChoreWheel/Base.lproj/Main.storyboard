@@ -162,7 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cva-i7-25L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-541" y="1969"/>
+            <point key="canvasLocation" x="-533" y="1955"/>
         </scene>
         <!--Photoboard View Controller-->
         <scene sceneID="3O5-O3-vSH">
